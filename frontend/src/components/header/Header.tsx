@@ -20,6 +20,10 @@ const Header = () => {
                 <Link
                     to="/"
                     className={styles.link}
+                >Technology</Link>
+                <Link
+                    to="/"
+                    className={styles.link}
                 >Education</Link>
                 <Link
                     to="/"
@@ -29,10 +33,6 @@ const Header = () => {
                     to="/"
                     className={styles.link}
                 >Projects</Link>
-                <Link
-                    to="/"
-                    className={styles.link}
-                >Technology</Link>
                 <Link
                     to="/"
                     className={styles.link}

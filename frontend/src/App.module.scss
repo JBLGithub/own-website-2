@@ -1,7 +1,12 @@
 @import 'theme/css/fonts.module.scss';
+@import 'theme/css/colours.scss';
 
 *  {
   margin: 0;
   padding: 0;
   font-family: Main, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: $colour-white;
 }

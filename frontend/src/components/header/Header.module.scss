@@ -2,7 +2,7 @@
 
 .header {
     width: 100vw;
-    height: 100px;
+    height: 10vh;
     box-sizing: border-box;
     background-color: $colour-dark-blue;
     display: flex;
@@ -11,7 +11,7 @@
 }
 
 .logo {
-    height: 100px;
+    height: 10vh;
     width: 15vw;
     display: flex;
     justify-content: center;
@@ -19,13 +19,13 @@
 }
 
 .logo img {
-    max-height: 100px;
+    max-height: 10vh;
     max-width: 15vw;
 }
 
 .links {
     width: 85vw;
-    height: 100px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: stretch;
