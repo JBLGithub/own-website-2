@@ -1,0 +1,46 @@
+@import '../../theme/css/colours.scss';
+
+.header {
+    width: 100vw;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: $colour-dark-blue;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.logo {
+    height: 100px;
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 100px;
+    max-width: 15vw;
+}
+
+.links {
+    width: 85vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.link {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $colour-white;
+    font-size: 18px;
+}
+
+.link:hover {
+    color: $colour-yellow;
+}
