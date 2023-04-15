@@ -1,5 +1,10 @@
 @import '../../theme/css/colours.scss';
 
+.headercontainer {
+    width: 100vw;
+    height: 10vh;
+}
+
 .header {
     width: 100vw;
     height: 10vh;
@@ -8,6 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    position: fixed;
+}
+
+.headerspacer  {
+    width: 100vw;
+    height: 10vh;
 }
 
 .logo {

@@ -1,0 +1,26 @@
+@import '../../theme/css/colours.scss';
+
+.technologies {
+    height: 45vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $colour-white;
+    align-items: center;
+}
+
+.technology {
+    margin: 0 2.5vw;
+    height: 5vw;
+    width: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technology img {
+    max-width: 80%;
+    max-height: 80%;
+}

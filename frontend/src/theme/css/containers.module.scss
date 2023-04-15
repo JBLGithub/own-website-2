@@ -1,0 +1,9 @@
+@import './colours.scss';
+
+.box {
+    border-radius: 10px;
+    background: $colour-white;
+    box-shadow: 
+        -15px -15px 30px #9dacae, 
+        15px 15px 30px #ffffff;
+}

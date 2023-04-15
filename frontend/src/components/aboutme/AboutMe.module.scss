@@ -1,0 +1,38 @@
+.aboutme {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.imagecontainer {
+    width: 40vw;
+    height: 90vh;
+}
+
+.imagecontainer img {
+    max-height: 90vh;
+    max-width: 40vw;
+    display: block;
+}
+
+.textcontainer {
+    width: 60vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.textcontainer p {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
