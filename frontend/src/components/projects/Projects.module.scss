@@ -2,7 +2,7 @@
 
 .projects {
     width: 100vw;
-    height: 90vh;
+    height: 80vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@
 
 .project {
     width: 45%;
-    height: 40vh;
+    height: 35vh;
     margin: 2.5vh 2.5% 2.5vh 2.5%;
     padding: 50px;
     box-sizing: border-box;
@@ -48,4 +48,8 @@
     display: flex;
     justify-content: left;
     align-items: center;
+}
+
+.project a:hover {
+    color: $colour-yellow;
 }

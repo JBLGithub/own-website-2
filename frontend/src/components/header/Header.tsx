@@ -38,11 +38,6 @@ const Header = () => {
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                     >Projects</Link>
-                    <Link
-                        to="/#contact"
-                        className={styles.link}
-                        scroll={el => scrollWithOffset(el)}
-                    >Contact</Link>
                 </div>
             </div>
             <div id='Top' className={styles.headerspacer}></div>
