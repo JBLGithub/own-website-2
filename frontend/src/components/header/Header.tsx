@@ -1,7 +1,7 @@
 //import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import styles from './Header.module.scss';
-import logo from '../../assets/headerlogo.png';
+import logo from '../../assets/logo.png';
 
 const Header = () => {
 
@@ -27,20 +27,12 @@ const Header = () => {
                         to="/#AboutMe"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
-                    >About Me</Link>
+                    >Me</Link>
                     <Link
                         to="/#Technology"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                     >Technology</Link>
-                    <Link
-                        to="/"
-                        className={styles.link}
-                    >Education</Link>
-                    <Link
-                        to="/"
-                        className={styles.link}
-                    >Experience</Link>
                     <Link
                         to="/"
                         className={styles.link}

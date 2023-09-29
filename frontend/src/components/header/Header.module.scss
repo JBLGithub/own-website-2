@@ -9,7 +9,7 @@
     width: 100vw;
     height: 10vh;
     box-sizing: border-box;
-    background-color: $colour-dark-blue;
+    background-color: $colour-white;
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -48,8 +48,9 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: $colour-white;
-    font-size: 18px;
+    color: $colour-dark-blue;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .link:hover {

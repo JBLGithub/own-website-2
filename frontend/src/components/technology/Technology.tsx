@@ -15,7 +15,6 @@ import react from '../../assets/technologies/react.png';
 import vuejs from '../../assets/technologies/vuejs.png';
 import dotnet from '../../assets/technologies/dotnet.png';
 import php from '../../assets/technologies/php.png';
-import phpmyadmin from '../../assets/technologies/phpmyadmin.png';
 import django from '../../assets/technologies/django.png';
 import spring from '../../assets/technologies/spring.png';
 import nginx from '../../assets/technologies/nginx.png';
@@ -29,7 +28,7 @@ import python from '../../assets/technologies/python.png';
 import c from '../../assets/technologies/c.png';
 import latex from '../../assets/technologies/latex.png';
 import swift from '../../assets/technologies/swift.png';
-import haskell from '../../assets/technologies/haskell.png';
+import rust from '../../assets/technologies/rust.png';
 
 //mongodb
 //redis
@@ -47,10 +46,10 @@ const Technology = () => {
                 <img src={c} alt='c#' />
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={python} alt='c#' />
+                <img src={rust} alt='rust' />
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={haskell} alt='c#' />
+                <img src={python} alt='c#' />
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
                 <img src={swift} alt='c#' />
@@ -87,9 +86,6 @@ const Technology = () => {
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
                 <img src={php} alt='c#' />
-            </div>
-            <div className={`${styles.technology} ${themes.box}`}>
-                <img src={phpmyadmin} alt='c#' />
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
                 <img src={django} alt='c#' />
