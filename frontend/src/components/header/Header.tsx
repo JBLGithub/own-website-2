@@ -22,22 +22,22 @@ const Header = () => {
                     <Link
                         to="/#top"
                         className={styles.link}
-                    >Home</Link>
+                    >home</Link>
                     <Link
                         to="/#me"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
-                    >Me</Link>
+                    >me</Link>
                     <Link
                         to="/#technology"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
-                    >Technology</Link>
+                    >technology</Link>
                     <Link
                         to="/#project"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
-                    >Projects</Link>
+                    >projects</Link>
                 </div>
             </div>
             <div id='Top' className={styles.headerspacer}></div>
