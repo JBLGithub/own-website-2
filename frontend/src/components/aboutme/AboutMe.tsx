@@ -5,11 +5,9 @@ const AboutMe = () => {
     return (
         <div className={styles.aboutme} id="AboutMe">
             <h2>Introduction</h2>
-            <ul className={styles.introcontainer}>
-                <li>I am a Computer Science student pursuing an Integrated Masters program at the University of St. Andrews.</li>
-                <li>I am consistently seeking opportunities for knowledge enhancement through collaborative efforts in both professional work environments, academic pursuits, and personal projects.</li>
-                <li>Some of my activities include skiing, sailing, scuba diving, golf, frisby golf, cycling and when I'm not in the wilderness, I'm learning about networking and security.</li>
-            </ul>
+                <p>I am a Computer Science student pursuing an Integrated Masters program at the University of St. Andrews.
+                I am consistently seeking opportunities for knowledge enhancement through collaborative efforts in both professional work environments, academic pursuits, and personal projects.
+                Some of my activities include skiing, sailing, scuba diving, golf, frisby golf, cycling and when I'm not in the wilderness, I'm learning about networking and security.</p>
             <h2>Education</h2>
             <div className={styles.educontainer}>
                 <p>Msci Computer Science (2024) - University of St Andrews</p>
