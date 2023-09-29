@@ -1,4 +1,4 @@
-name: Deploy to Server
+name: deploy to digital ocean
 
 on:
   push:
@@ -13,13 +13,26 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v3
 
-      - name: copy file via ssh password
+      - name: copy file via ssh
         uses: appleboy/scp-action@v0.1.4
         with:
           host: ${{ secrets.HOST }}
           username: "root"
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
+          timeout: 600
           source: frontend
           target: /root/app/
+
+      - name: execute via ssh
+        uses: appleboy/scp-action@v0.1.4
+        with:
+          host: ${{ secrets.HOST }}
+          username: "root"
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          timeout: 600
+          script: |
+            cd /home/app/frontend
+            npm install
 
