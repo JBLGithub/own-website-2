@@ -35,7 +35,7 @@ import rust from '../../assets/technologies/rust.png';
 
 const Technology = () => {
     return (
-        <div id='Technology' className={styles.technologies}>
+        <div id='technology' className={styles.technologies}>
             <div title='Implemented many projects throughout university such as Turing Machine simulator in Java' className={`${styles.technology} ${themes.box}`}>
                 <img src={java} alt='java' />
             </div>

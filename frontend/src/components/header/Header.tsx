@@ -20,26 +20,28 @@ const Header = () => {
                 </div>
                 <div className={styles.links}>
                     <Link
-                        to="/#Top"
+                        to="/#top"
                         className={styles.link}
                     >Home</Link>
                     <Link
-                        to="/#AboutMe"
+                        to="/#me"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                     >Me</Link>
                     <Link
-                        to="/#Technology"
+                        to="/#technology"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                     >Technology</Link>
                     <Link
-                        to="/"
+                        to="/#project"
                         className={styles.link}
+                        scroll={el => scrollWithOffset(el)}
                     >Projects</Link>
                     <Link
-                        to="/"
+                        to="/#contact"
                         className={styles.link}
+                        scroll={el => scrollWithOffset(el)}
                     >Contact</Link>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import styles from './AboutMe.module.scss';
 const AboutMe = () => {
 
     return (
-        <div className={styles.aboutme} id="AboutMe">
+        <div className={styles.aboutme} id="me">
             <h2>Introduction</h2>
                 <p>I am a Computer Science student pursuing an Integrated Masters program at the University of St. Andrews.
                 I am consistently seeking opportunities for knowledge enhancement through collaborative efforts in both professional work environments, academic pursuits, and personal projects.

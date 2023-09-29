@@ -2,6 +2,36 @@
 
 .footer {
     width: 100vw;
-    height: 10vh;
+    height: 90vh;
     background-color: $colour-dark-blue;
+    color: $colour-white;
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    flex: 1;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-transform: none;
+    text-decoration: none;
+    color: $colour-white;
+}
+
+.contactForm {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
