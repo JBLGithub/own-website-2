@@ -20,7 +20,7 @@ jobs:
           username: "root"
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          timeout: 600
+          timeout: 600s
           source: frontend
           target: /root/app/
 
@@ -31,7 +31,7 @@ jobs:
           username: "root"
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
-          timeout: 600
+          timeout: 600s
           script: |
             cd /home/app/frontend
             npm install
