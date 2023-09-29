@@ -8,25 +8,6 @@
     align-items: center;
 }
 
-.typewriter {
-    overflow: hidden;
-    border-right: .15em solid $colour-dark-blue;
-    color: $colour-dark-blue;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    font-size: 5vw;
-    animation: 
-        typing 2.5s steps(40, end),
-        blink-caret 1.0s step-end infinite;
-}
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: $colour-dark-blue; }
+.welcome h1 {
+    font-size: 80px;
 }
