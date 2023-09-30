@@ -6,8 +6,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 .welcome h1 {
     font-size: 80px;
+}
+
+@media screen and (max-width: 500px)  {
+    .welcome h1 {
+        font-size: 60px;
+    }
 }

@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    flex-wrap: wrap;
     position: fixed;
     z-index: 1000;
 }
@@ -28,6 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .logo img {
@@ -41,6 +43,7 @@
     display: flex;
     justify-content: center;
     align-items: stretch;
+    background-color: $colour-white;
 }
 
 .link {
@@ -56,4 +59,53 @@
 
 .link:hover {
     color: $colour-yellow;
+}
+
+.menuBarContainer {
+    display: none;
+    width: 30vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.menuBar {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menuBar hr {
+    height: 2px;
+    width: 100%;
+    border: 1.5px solid $colour-dark-blue;
+    background-color: $colour-dark-blue;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 650px) {
+
+    .logo {
+        width: 70vw;
+        padding-left: 30vw;
+    }
+
+    .links {
+        display: none;
+        width: 100vw;
+        height: 90vh;
+        flex-direction: column;
+    }
+
+    .menuBarContainer {
+        display: flex;
+    }
 }

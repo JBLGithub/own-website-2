@@ -53,3 +53,45 @@
 .project a:hover {
     color: $colour-yellow;
 }
+
+@media screen and (max-width: 1000px)  {
+
+    .projects {
+        height: 120vh;
+    }
+
+    .project {
+        width: 95%;
+    }
+
+    .p1 {
+        font-size: 25px;
+        text-decoration: underline;
+        margin-bottom: 10px;
+        flex: 1;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .p2 {
+        font-size: 20px;
+        flex: 0.5;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 500px)  {
+
+    .projects {
+        height: 165vh;
+    }
+
+    .project {
+        height: 50vh;
+    }
+
+}
