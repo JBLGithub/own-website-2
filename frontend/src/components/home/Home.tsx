@@ -9,7 +9,7 @@ const Home = () => {
         <div className={styles.home}>
             <Welcome />
             <AboutMe />
-            <Technology />
+            <Technology/>
             <Project />
         </div>
     )

@@ -1,26 +1,44 @@
 @import '../../theme/css/colours.scss';
 
 .technologies {
-    height: 90vh;
+    height: 180px;
     width: 100vw;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    white-space: nowrap;
+    overflow: auto;
     background-color: $colour-white;
-    align-items: center;
 }
 
 .technology {
-    margin: 0 2.5vw;
-    height: 7.5vw;
-    width: 7.5vw;
+    height: 100px;
+    width: 100px;
+    margin: 40px 20px 40px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    animation: infiniteScroll 40s linear infinite;
+}
+
+.techcontainer {
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .technology img {
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 70%;
+    max-height: 70%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: auto;
+}
+
+@keyframes infiniteScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc((100px + 40px) * -29));
+    }
 }

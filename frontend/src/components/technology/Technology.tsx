@@ -37,93 +37,297 @@ const Technology = () => {
     return (
         <div id='technology' className={styles.technologies}>
             <div title='Implemented many projects throughout university such as Turing Machine simulator in Java' className={`${styles.technology} ${themes.box}`}>
-                <img src={java} alt='java' />
+                <div className={styles.techcontainer}>
+                    <img src={java} alt='java' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={csharp} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={csharp} alt='c#' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={c} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={c} alt='c' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={rust} alt='rust' />
+                <div className={styles.techcontainer}>
+                    <img src={rust} alt='rust' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={python} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={python} alt='python' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={swift} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={swift} alt='swift' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={grafana} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={grafana} alt='grafana' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={elasticsearch} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={elasticsearch} alt='elasticsearch' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={mongodb} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={mongodb} alt='mongodb' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={microsoftsql} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={microsoftsql} alt='microsoftsql' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={redis} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={redis} alt='redis' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={linux} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={linux} alt='linux' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={kali} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={kali} alt='kali' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={azure} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={azure} alt='azure' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={nodejs} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={nodejs} alt='nodejs' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={dotnet} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={dotnet} alt='dotnet' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={php} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={php} alt='php' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={django} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={django} alt='django' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={spring} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={spring} alt='spring' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={nginx} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={nginx} alt='nginx' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={docker} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={docker} alt='docker' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={podman} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={podman} alt='podman' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={react} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={react} alt='react' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={vuejs} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={vuejs} alt='vuejs' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={html} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={html} alt='html' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={css} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={css} alt='css' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={javascript} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={javascript} alt='javascript' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={typescript} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={typescript} alt='typescript' />
+                </div>
             </div>
             <div className={`${styles.technology} ${themes.box}`}>
-                <img src={latex} alt='c#' />
+                <div className={styles.techcontainer}>
+                    <img src={latex} alt='latex' />
+                </div>
+            </div>
+            <div title='Implemented many projects throughout university such as Turing Machine simulator in Java' className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={java} alt='java' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={csharp} alt='c#' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={c} alt='c' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={rust} alt='rust' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={python} alt='python' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={swift} alt='swift' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={grafana} alt='grafana' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={elasticsearch} alt='elasticsearch' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={mongodb} alt='mongodb' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={microsoftsql} alt='microsoftsql' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={redis} alt='redis' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={linux} alt='linux' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={kali} alt='kali' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={azure} alt='azure' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={nodejs} alt='nodejs' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={dotnet} alt='dotnet' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={php} alt='php' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={django} alt='django' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={spring} alt='spring' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={nginx} alt='nginx' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={docker} alt='docker' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={podman} alt='podman' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={react} alt='react' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={vuejs} alt='vuejs' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={html} alt='html' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={css} alt='css' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={javascript} alt='javascript' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={typescript} alt='typescript' />
+                </div>
+            </div>
+            <div className={`${styles.technology} ${themes.box}`}>
+                <div className={styles.techcontainer}>
+                    <img src={latex} alt='latex' />
+                </div>
             </div>
         </div>
+
     )
 }
 
