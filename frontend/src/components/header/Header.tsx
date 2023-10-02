@@ -50,25 +50,25 @@ const Header = () => {
                         to="/#top"
                         className={styles.link}
                         onClick={handleMenuBarPressed}
-                    >home</Link>
+                    >Home</Link>
                     <Link
                         to="/#me"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                         onClick={handleMenuBarPressed}
-                    >me</Link>
+                    >Me</Link>
                     <Link
                         to="/#technology"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                         onClick={handleMenuBarPressed}
-                    >technology</Link>
+                    >Technology</Link>
                     <Link
                         to="/#project"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                         onClick={handleMenuBarPressed}
-                    >projects</Link>
+                    >Projects</Link>
                 </div>
             </div>
             <div id='Top' className={styles.headerspacer}></div>
