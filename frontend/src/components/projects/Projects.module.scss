@@ -29,6 +29,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
+    font-weight: bold;
 }
 
 .p2 {
@@ -87,11 +88,12 @@
 @media screen and (max-width: 500px)  {
 
     .projects {
-        height: 165vh;
+        height: 195vh;
     }
 
     .project {
-        height: 50vh;
+        height: 60vh;
+        padding: 0 20px 0 20px;
     }
 
 }
