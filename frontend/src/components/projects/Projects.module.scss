@@ -64,7 +64,7 @@
 @media screen and (max-width: 1000px)  {
 
     .projects {
-        height: 120vh;
+        height: 1200px;
     }
 
     .project {
@@ -94,12 +94,14 @@
 @media screen and (max-width: 500px)  {
 
     .projects {
-        height: 195vh;
+        height: 1500px;
+        flex-direction: column;
+        height: auto;
     }
 
     .project {
         height: 60vh;
-        padding: 0 20px 0 20px;
+        padding: 0 50px 0 50px;
     }
 
 }

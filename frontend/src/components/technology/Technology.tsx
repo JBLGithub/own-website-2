@@ -29,14 +29,36 @@ import c from '../../assets/technologies/c.png';
 import latex from '../../assets/technologies/latex.png';
 import swift from '../../assets/technologies/swift.png';
 import rust from '../../assets/technologies/rust.png';
+import { useRef } from 'react';
 
 //mongodb
 //redis
 
 const Technology = () => {
+
+    const technologiesRef = useRef<HTMLDivElement>(null);
+    const handleScroll = () => {
+        if (technologiesRef.current) {
+            const container = technologiesRef.current;
+            const elementWidth = 100 + 40; // Adjust this based on your element's width and margin
+            const numElements = 29; // Number of elements
+            const scrollLeft = container.scrollLeft;
+
+            if (scrollLeft >= elementWidth * numElements) {
+                // Reset the scroll position when scrolling past the 29th element
+                container.scrollLeft = 0;
+            }
+        }
+    };
+
     return (
-        <div id='technology' className={styles.technologies}>
-            <div title='Implemented many projects throughout university such as Turing Machine simulator in Java' className={`${styles.technology} ${themes.box}`}>
+        <div 
+            id='technology' 
+            className={styles.technologies}
+            ref={technologiesRef}
+            onScroll={handleScroll}
+        >
+            <div className={`${styles.technology} ${themes.box}`}>
                 <div className={styles.techcontainer}>
                     <img src={java} alt='java' />
                 </div>
@@ -181,7 +203,7 @@ const Technology = () => {
                     <img src={latex} alt='latex' />
                 </div>
             </div>
-            <div title='Implemented many projects throughout university such as Turing Machine simulator in Java' className={`${styles.technology} ${themes.box}`}>
+            <div className={`${styles.technology} ${themes.box}`}>
                 <div className={styles.techcontainer}>
                     <img src={java} alt='java' />
                 </div>

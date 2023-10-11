@@ -1,6 +1,6 @@
 .aboutme {
     width: 100vw;
-    height: 90vh;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -41,6 +41,7 @@
     font-weight: bold;
     box-sizing: border-box;
     padding-left: 50px;
+    //padding: 10px 0 10px 50px;
 }
 
 .aboutme li {
@@ -92,7 +93,7 @@
 @media screen and (max-width: 1000px)  {
 
     .aboutme  {
-        height: 140vh;
+        height: 1500px;
         padding: 0 50px 50px 50px;
     }
 
@@ -113,7 +114,7 @@
 @media screen and (max-width: 500px)  {
 
     .aboutme  {
-        height: 190vh;
+        height: 1700px;
         padding: 0 20px 20px 20px;
     }
 
