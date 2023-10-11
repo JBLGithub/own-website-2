@@ -7,8 +7,8 @@ const AboutMe = () => {
             <div className={styles.aboutMeItem}>
                 <h2>Introduction</h2>
                 <p>I am a Computer Science student pursuing an Integrated Masters program at the University of St. Andrews.
-                I am consistently seeking opportunities for knowledge enhancement through collaborative efforts in both professional work environments, academic pursuits, and personal projects.
-                Some of my activities include skiing, sailing, scuba diving, golf, frisby golf, cycling and when I'm not in the wilderness, I'm learning about networking and security.</p>
+                I am consistently seeking opportunities to enhancement my knowledge through collaborative efforts in both professional work environments, academic pursuits, and personal projects.
+                Some of my activities include skiing, sailing, scuba diving, golf, cycling and when I'm not in the wilderness, I'm learning about networking and security.</p>
             </div>
             <div className={styles.aboutMeItem}>
                 <h2>Education</h2>

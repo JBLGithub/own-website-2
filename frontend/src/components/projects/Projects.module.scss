@@ -2,7 +2,7 @@
 
 .projects {
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -11,9 +11,15 @@
     align-items:center;
 }
 
+.projects h1 {
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+}
+
 .project {
     width: 45%;
-    height: 35vh;
+    height: 32.5vh;
     margin: 2.5vh 2.5% 2.5vh 2.5%;
     padding: 50px;
     box-sizing: border-box;

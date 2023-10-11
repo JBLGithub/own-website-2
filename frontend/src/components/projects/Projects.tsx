@@ -4,14 +4,15 @@ import themes from '../../theme/css/containers.module.scss'
 const Project = () => {
     return (
         <div id="project" className={styles.projects}>
+            <h1>Projects</h1>
             <div className={`${styles.project} ${themes.box}`}>
-                <p className={styles.p1}>Monitoring PH, EC and Temperature using Arduino</p>
-                <p className={styles.p2}>Using the arduino the monitor the environment of a water solution bfore watering</p>
-                <a></a>
+                <p className={styles.p1}>PH, EC, Temperature and the Arduino</p>
+                <p className={styles.p2}>Utilizing Arduino for environmental monitoring of a water solution and implementing pH adjustment through water electrolysis.</p>
+                <a href='https://github.com/JBLGithub/ph-project'>github</a>
             </div>
             <div className={`${styles.project} ${themes.box}`}>
                 <p className={styles.p1}>Local Network Reconnaissance</p>
-                <p className={styles.p2}>Bash script to enumerate all services running in a given network along side which port number they are running in. Searchploit can then be used to search the services for any vulnerabilities.</p>
+                <p className={styles.p2}>Using a Bash script to systematically identify all services within a specific network, I subsequently employ 'Searchsploit' to assess the potential vulnerabilities of these services.</p>
                 <a href='https://github.com/Tectagon/active-information-gathering'>github</a>
             </div>
             <div className={`${styles.project} ${themes.box}`}>
