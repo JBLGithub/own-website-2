@@ -13,7 +13,7 @@ const AboutMe = () => {
             <div className={styles.aboutMeItem}>
                 <h2>Education</h2>
                 <div className={styles.container}>
-                    <p className={styles.p1}>University of St Andrews (2024)</p>
+                    <p className={styles.p1}>University of St Andrews (2025)</p>
                     <p className={styles.p2}>Msci Computer Science</p>
                 </div>
                 <div className={styles.container}>
