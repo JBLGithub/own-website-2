@@ -6,7 +6,9 @@
         "header_projects": "Projects",
 
         "welcome_portfolio": "Welcome to my portfolio.",
-        "welcome_contact": "Please get in touch..."
+        "welcome_contact": "Please get in touch...",
+
+        "aboutme_intro": "I am a Computer Science student pursuing an Integrated Masters program at the University of St. Andrews. I am consistently seeking to enhance my knowledge through collaborative efforts in both professional work environments, academic pursuits, and personal projects. Some of my activities include skiing, sailing, scuba diving, golf, cycling and when I'm not in the wilderness, I'm learning about networking and security."
     }
 }
   

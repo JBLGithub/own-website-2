@@ -1,6 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import styles from './AboutMe.module.scss';
 
 const AboutMe = () => {
+
+    // translation
+    const { t } = useTranslation();
 
     return (
         <div className={styles.aboutme} id="me">
