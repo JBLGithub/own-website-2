@@ -1,0 +1,11 @@
+{
+    "translation": {
+        "header_home": "Acceuil",
+        "header_me": "Moi",
+        "header_technology": "Technologie",
+        "header_projects": "Projets",
+
+        "welcome_portfolio": "Bienvenue sur mon portfolio.",
+        "welcome_contact": "N'hesitez pas de me contacter..."
+    }
+}
