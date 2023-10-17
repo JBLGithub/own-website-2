@@ -33,10 +33,9 @@ jobs:
           port: 22
           timeout: 600s
           script: |
-            export PATH="/root/.nvm/versions/node/v18.18.2/bin:$PATH"
             sudo chown -R root:root /root/app/frontend
             cd /root/app/frontend
-            rm -rf /root/app/frontend/node_modules || true
+            rm -rf node_modules || true
             npm install
             pm2 delete frontend || true
             pm2 start
