@@ -3,6 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 import styles from './Header.module.scss';
 import logo from '../../assets/logo.png';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
 
@@ -29,6 +30,17 @@ const Header = () => {
         }
     }
 
+    // translation
+    const { t } = useTranslation();
+    const { i18n } = useTranslation();
+    const [lang, setLang] = useState(i18n.language);
+    const handleLanguageChange = () => {
+        handleMenuBarPressed();
+        const newLang = lang === 'en' ? 'fr' : 'en';
+        i18n.changeLanguage(newLang);
+        setLang(newLang);
+    }
+
     return (
         <div className={styles.headercontainer}>
             <div className={styles.header}>
@@ -50,25 +62,32 @@ const Header = () => {
                         to="/#top"
                         className={styles.link}
                         onClick={handleMenuBarPressed}
-                    >Home</Link>
+                    >{t("header_home")}</Link>
                     <Link
                         to="/#me"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                         onClick={handleMenuBarPressed}
-                    >Me</Link>
+                    >{t("header_me")}</Link>
                     <Link
                         to="/#technology"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                         onClick={handleMenuBarPressed}
-                    >Technology</Link>
+                    >{t("header_technology")}</Link>
                     <Link
                         to="/#project"
                         className={styles.link}
                         scroll={el => scrollWithOffset(el)}
                         onClick={handleMenuBarPressed}
-                    >Projects</Link>
+                    >{t("header_projects")}</Link>
+                    <Link
+                        to="/#top"
+                        className={styles.link}
+                        onClick={handleLanguageChange}
+                    >
+                        {lang === 'en' ? 'FR' : 'EN'}
+                    </Link>
                 </div>
             </div>
             <div id='Top' className={styles.headerspacer}></div>

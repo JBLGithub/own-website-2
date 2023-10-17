@@ -1,0 +1,26 @@
+{
+    "translation": {
+        "header_home": "Home",
+        "header_me": "Me",
+        "header_technology": "Skills",
+        "header_projects": "Projects",
+
+        "welcome_portfolio": "Welcome to my portfolio.",
+        "welcome_contact": "Please get in touch...",
+
+        "aboutme_intro": "I am a Computer Science student pursuing an Integrated Masters program at the University of St. Andrews. I am consistently seeking to enhance my knowledge through collaborative efforts in professional work environments, academic pursuits, and personal projects. Some of my activities include skiing, sailing, scuba diving, golf, cycling and when I'm not in the wilderness, I'm learning about networking and security.",
+        "aboutme_education": "Education",
+        "aboutme_experience": "Experience",
+        "aboutme_summer": "Summer",
+
+        "project1_title": "PH, EC, Temperature and the Arduino",
+        "project1_description": "Utilizing Arduino for environmental monitoring of a water solution and implementing pH adjustment through water electrolysis.",
+        "project2_title": "Local Network Reconnaissance",
+        "project2_description": "Using a Bash script to systematically identify all services within a specific network, I subsequently employ 'Searchsploit' to assess the potential vulnerabilities of these services.",
+        "project3_title": "Wireless Network Reconnaissance",
+        "project3_description": "(Ongoing) Enumerating wireless network using applications such as tcpdump or using libraries such as pcap in C.",
+
+        "footer_rights": "All rights reserved."
+    }
+}
+  

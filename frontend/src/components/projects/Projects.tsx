@@ -1,24 +1,28 @@
 import styles from './Projects.module.scss';
 import themes from '../../theme/css/containers.module.scss'
+import { useTranslation } from 'react-i18next';
 
 const Project = () => {
+
+    const { t } = useTranslation();
+
     return (
         <div id="project" className={styles.projects}>
-            <h1>Projects</h1>
+            <h1>{t('header_projects')}</h1>
             <div className={`${styles.project} ${themes.box}`}>
-                <p className={styles.p1}>PH, EC, Temperature and the Arduino</p>
-                <p className={styles.p2}>Utilizing Arduino for environmental monitoring of a water solution and implementing pH adjustment through water electrolysis.</p>
+                <p className={styles.p1}>{t('project1_title')}</p>
+                <p className={styles.p2}>{t('project1_description')}</p>
                 <a href='https://github.com/JBLGithub/ph-project'>github</a>
             </div>
             <div className={`${styles.project} ${themes.box}`}>
-                <p className={styles.p1}>Local Network Reconnaissance</p>
-                <p className={styles.p2}>Using a Bash script to systematically identify all services within a specific network, I subsequently employ 'Searchsploit' to assess the potential vulnerabilities of these services.</p>
+                <p className={styles.p1}>{t('project2_title')}</p>
+                <p className={styles.p2}>{t('project2_description')}</p>
                 <a href='https://github.com/Tectagon/active-information-gathering'>github</a>
             </div>
             <div className={`${styles.project} ${themes.box}`}>
-                <p className={styles.p1}>Wireless Network Reconnaissance</p>
-                <p className={styles.p2}>(Ongoing) Enumerating wireless network using applications such as tcpdump or using libraries such as pcap in C.</p>
-                <a  href='https://github.com/Tectagon/wifi-enumeration'>github</a>
+                <p className={styles.p1}>{t('project3_title')}</p>
+                <p className={styles.p2}>{t('project3_description')}</p>
+                <a href='https://github.com/Tectagon/wifi-enumeration'>github</a>
             </div>
         </div>
     )

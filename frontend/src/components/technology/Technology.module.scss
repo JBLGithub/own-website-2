@@ -1,8 +1,19 @@
 @import '../../theme/css/colours.scss';
 
 .technologies {
-    height: 180px;
     width: 100vw;
+}
+
+.technologies h1 {
+    width: 100vw;
+    height: 5vh;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.technologyContainer {
+    height: 180px;
+    width: 100%;
     white-space: nowrap;
     overflow: auto;
     background-color: $colour-white;
