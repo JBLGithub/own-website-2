@@ -37,7 +37,7 @@ jobs:
             sudo chown -R root:root /root/app/frontend
             cd /root/app/frontend
             rm -rf node_modules || true
-            npm install
+            npm install -dd
             pm2 delete frontend || true
             pm2 start
 
