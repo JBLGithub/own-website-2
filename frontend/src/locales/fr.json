@@ -2,10 +2,24 @@
     "translation": {
         "header_home": "Acceuil",
         "header_me": "Moi",
-        "header_technology": "Technologie",
+        "header_technology": "Compétences",
         "header_projects": "Projets",
 
         "welcome_portfolio": "Bienvenue sur mon portfolio.",
-        "welcome_contact": "N'hesitez pas de me contacter..."
+        "welcome_contact": "N'hesitez pas de me contacter...",
+
+        "aboutme_intro": "Je suis un étudiant en informatique engagé dans un programme de Master intégré à l'Université de St. Andrews. Je cherche constamment à élargir mes connaissances à travers des collaborations dans un travail professionnels, des projets académiques et des projets personnels. Mes activités incluent le ski, la voile, la plongée sous-marine, le golf, le cyclisme, et lorsque je ne suis pas en pleine nature, j'approfondis mes connaissances dans les domaines des réseaux et de la sécurité informatiques.",
+        "aboutme_education": "Éducation",
+        "aboutme_experience": "Expérience",
+        "aboutme_summer": "Été",
+
+        "project1_title": "PH, EC, Température et l'Arduino",
+        "project1_description": "Utilisation de l’Arduino pour la surveillance d’une solution aqueuse et expérimentation pour modifier le pH par électrolyse de l'eau.",
+        "project2_title": "Reconnaissance du Réseau Local",
+        "project2_description": "En utilisant un script Bash pour identifier systématiquement tous les services au sein d'un réseau spécifique, j'utilise ensuite \"Searchsploit\" pour évaluer les vulnérabilités potentielles de ces services.",
+        "project3_title": "Reconnaissance du Réseau sans Fil",
+        "project3_description": "(En cours) Énumération des réseaux sans fil en utilisant des applications telles que Tcpdump ou en utilisant des librairies telles que Pcap en C.",
+
+        "footer_rights": "Tous droits réservés."
     }
 }
