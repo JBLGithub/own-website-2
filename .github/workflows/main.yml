@@ -9,6 +9,8 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    env:
+      PATH: $PATH:/root/.nvm/versions/node/v18.18.2/bin
     steps:
       - name: checkout code
         uses: actions/checkout@v3
